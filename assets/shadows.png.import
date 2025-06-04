@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyb25klarny2n"
-path="res://.godot/imported/level_01_lunar_tree.png-6d4b8fc8f6d68f6fa07c42043ff03b03.ctex"
+uid="uid://05lxrlkpjc15"
+path="res://.godot/imported/shadows.png-27b96f6e4ccc31dac1c426f608ab2879.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/level_01_lunar_tree.png"
-dest_files=["res://.godot/imported/level_01_lunar_tree.png-6d4b8fc8f6d68f6fa07c42043ff03b03.ctex"]
+source_file="res://assets/shadows.png"
+dest_files=["res://.godot/imported/shadows.png-27b96f6e4ccc31dac1c426f608ab2879.ctex"]
 
 [params]
 

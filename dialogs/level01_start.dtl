@@ -1,0 +1,10 @@
+henry: [i]Whoa, this place is massive. It's like a whole level in a video game.[/i]\
+\
+Uau, esse lugar é gigante. Parece uma fase inteira de videogame.
+pepperlex: [i]Yep. And with all these signs in Portuguese, you’re kinda useless here without me, huh?[/i]\
+\
+Sim. E com todas essas placas em português, você é meio inútil aqui sem mim, né?
+henry: [i]That’s why I need you... But still, we could use some help. Look, there's a guy over there. Let's ask him.[/i]\
+\
+É por isso eu preciso você... Mas mesmo assim, uma ajuda seria bem-vinda. Olha, tem um cara ali. Vamos perguntar pra ele.
+[signal arg="enable_movement"]

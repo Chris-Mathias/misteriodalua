@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://frvf5jtvet3a"
-path="res://.godot/imported/Small-8-Direction-Characters_by_AxulArt.png-489c345176e2f9434ef44e0a1808edc9.ctex"
+uid="uid://bdiheq2sfbe6l"
+path="res://.godot/imported/level_01_stone.png-04b21b7dfa626c1fcefe5aeeafedd120.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Small-8-Direction-Characters_by_AxulArt.png"
-dest_files=["res://.godot/imported/Small-8-Direction-Characters_by_AxulArt.png-489c345176e2f9434ef44e0a1808edc9.ctex"]
+source_file="res://assets/level_01_stone.png"
+dest_files=["res://.godot/imported/level_01_stone.png-04b21b7dfa626c1fcefe5aeeafedd120.ctex"]
 
 [params]
 

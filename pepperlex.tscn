@@ -1,8 +1,8 @@
-[gd_scene load_steps=43 format=3 uid="uid://dayyx7ppgadns"]
+[gd_scene load_steps=41 format=3 uid="uid://cf8iw0idumxw4"]
 
-[ext_resource type="Script" uid="uid://ci2fsepy37la3" path="res://player.gd" id="1_onrkg"]
+[ext_resource type="Script" uid="uid://beeumdohevc2k" path="res://pepperlex.gd" id="1_75qui"]
 [ext_resource type="Texture2D" uid="uid://cr5j3ig7rpyrr" path="res://assets/player_shadow.png" id="2_hqtel"]
-[ext_resource type="Texture2D" uid="uid://ofp70x4kefr5" path="res://assets/characters.png" id="3_i3pqv"]
+[ext_resource type="Texture2D" uid="uid://ofp70x4kefr5" path="res://assets/characters.png" id="3_75qui"]
 
 [sub_resource type="Animation" id="Animation_volup"]
 length = 0.001
@@ -16,7 +16,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(4, 10)]
+"values": [Vector2i(4, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_pkfo5"]
@@ -33,7 +33,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(4, 10)]
+"values": [Vector2i(4, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_5l78s"]
@@ -50,7 +50,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(5, 10)]
+"values": [Vector2i(5, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_1enba"]
@@ -67,7 +67,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(3, 10)]
+"values": [Vector2i(3, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_5ambk"]
@@ -84,7 +84,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(6, 10)]
+"values": [Vector2i(6, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_dosuk"]
@@ -101,7 +101,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(2, 10)]
+"values": [Vector2i(2, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_eu58e"]
@@ -118,7 +118,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(0, 10)]
+"values": [Vector2i(0, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_v8sn2"]
@@ -135,7 +135,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(7, 10)]
+"values": [Vector2i(7, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_14ea8"]
@@ -152,7 +152,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [Vector2i(1, 10)]
+"values": [Vector2i(1, 2)]
 }
 
 [sub_resource type="Animation" id="Animation_4e58a"]
@@ -170,7 +170,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(4, 10), Vector2i(4, 9), Vector2i(4, 10), Vector2i(4, 11)]
+"values": [Vector2i(4, 2), Vector2i(4, 1), Vector2i(4, 2), Vector2i(4, 3)]
 }
 
 [sub_resource type="Animation" id="Animation_m6nu8"]
@@ -188,7 +188,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(5, 10), Vector2i(5, 9), Vector2i(5, 10), Vector2i(5, 11)]
+"values": [Vector2i(5, 2), Vector2i(5, 1), Vector2i(5, 2), Vector2i(5, 3)]
 }
 
 [sub_resource type="Animation" id="Animation_gv15d"]
@@ -206,7 +206,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(3, 10), Vector2i(3, 9), Vector2i(3, 10), Vector2i(3, 11)]
+"values": [Vector2i(3, 2), Vector2i(3, 1), Vector2i(3, 2), Vector2i(3, 3)]
 }
 
 [sub_resource type="Animation" id="Animation_chvvc"]
@@ -224,7 +224,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(6, 10), Vector2i(6, 9), Vector2i(6, 10), Vector2i(6, 11)]
+"values": [Vector2i(6, 2), Vector2i(6, 1), Vector2i(6, 2), Vector2i(6, 3)]
 }
 
 [sub_resource type="Animation" id="Animation_8yfxx"]
@@ -242,7 +242,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(2, 10), Vector2i(2, 9), Vector2i(2, 10), Vector2i(2, 11)]
+"values": [Vector2i(2, 2), Vector2i(2, 1), Vector2i(2, 2), Vector2i(2, 3)]
 }
 
 [sub_resource type="Animation" id="Animation_iprvw"]
@@ -260,7 +260,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(0, 10), Vector2i(0, 9), Vector2i(0, 10), Vector2i(0, 11)]
+"values": [Vector2i(0, 2), Vector2i(0, 1), Vector2i(0, 2), Vector2i(0, 3)]
 }
 
 [sub_resource type="Animation" id="Animation_7e3fh"]
@@ -278,7 +278,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(7, 10), Vector2i(7, 9), Vector2i(7, 10), Vector2i(7, 11)]
+"values": [Vector2i(7, 2), Vector2i(7, 1), Vector2i(7, 2), Vector2i(7, 3)]
 }
 
 [sub_resource type="Animation" id="Animation_b321j"]
@@ -296,7 +296,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 0.2, 0.4, 0.6),
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 1,
-"values": [Vector2i(1, 10), Vector2i(1, 9), Vector2i(1, 10), Vector2i(1, 11)]
+"values": [Vector2i(1, 2), Vector2i(1, 1), Vector2i(1, 2), Vector2i(1, 3)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_jxm0e"]
@@ -412,35 +412,27 @@ states/Idle/position = Vector2(309, 100)
 states/Walk/node = SubResource("AnimationNodeBlendSpace2D_5p0ms")
 states/Walk/position = Vector2(420, 100)
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_htauc"]
-radius = 1.4
-height = 4.33994
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_i3pqv"]
-radius = 16.005
-
-[node name="player" type="CharacterBody2D" node_paths=PackedStringArray("animation_tree") groups=["players"]]
+[node name="npc" type="CharacterBody2D" node_paths=PackedStringArray("animation_tree")]
 z_index = 1
 y_sort_enabled = true
 scale = Vector2(5, 5)
-script = ExtResource("1_onrkg")
+script = ExtResource("1_75qui")
 animation_tree = NodePath("AnimationTree")
 
 [node name="Sprite2D2" type="Sprite2D" parent="."]
 z_as_relative = false
-position = Vector2(0, 9.60001)
+position = Vector2(0, 10.8001)
 scale = Vector2(0.018066, 0.018066)
 texture = ExtResource("2_hqtel")
-metadata/_edit_lock_ = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 z_index = 1
 z_as_relative = false
 y_sort_enabled = true
-texture = ExtResource("3_i3pqv")
+texture = ExtResource("3_75qui")
 hframes = 8
 vframes = 12
-frame = 84
+frame = 20
 metadata/_edit_lock_ = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
@@ -452,28 +444,11 @@ libraries = {
 tree_root = SubResource("AnimationNodeStateMachine_2wviv")
 anim_player = NodePath("../AnimationPlayer")
 parameters/Idle/blend_position = Vector2(0, 0)
-parameters/Walk/blend_position = Vector2(0, 0)
+parameters/Walk/blend_position = Vector2(-0.0031898, 0)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-z_index = 1
-z_as_relative = false
-y_sort_enabled = true
-position = Vector2(0, 9.4)
-scale = Vector2(1, 0.305813)
-shape = SubResource("CapsuleShape2D_htauc")
-metadata/_edit_lock_ = true
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+path_desired_distance = 50.0
+target_desired_distance = 25.0
+path_max_distance = 200.0
 
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2.5, 2.5)
-
-[node name="Area2D" type="Area2D" parent="."]
-collision_layer = 2
-collision_mask = 2
-metadata/_edit_lock_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource("CircleShape2D_i3pqv")
-metadata/_edit_lock_ = true
-
-[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
-[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]
+[connection signal="velocity_computed" from="NavigationAgent2D" to="." method="_on_navigation_agent_2d_velocity_computed"]

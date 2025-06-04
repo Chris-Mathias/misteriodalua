@@ -12,10 +12,16 @@ func _input(event: InputEvent):
 		Dialogic.start("level01_stone")
 		$player.disable_movement()
 		get_viewport().set_input_as_handled()
-
+	
+	elif event.is_action_pressed("ui_accept") and $player.allow_npc_dialog == true:
+		Dialogic.start("level01_npc")
+		$player.disable_movement()
+		get_viewport().set_input_as_handled()
 
 func _ready() -> void:
 	Dialogic.signal_event.connect(_on_dialog_signal)
+	Dialogic.start("level01_start")
+	$player.disable_movement()
 	pass 
 
 

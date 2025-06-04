@@ -22,9 +22,14 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"henry": "res://dialogs/henry.dch"
+"elza": "res://dialogs/elza.dch",
+"henry": "res://dialogs/henry.dch",
+"pepperlex": "res://dialogs/pepperlex.dch",
+"stone": "res://dialogs/stone.dch"
 }
 directories/dtl_directory={
+"level01_npc": "res://dialogs/level01_npc.dtl",
+"level01_start": "res://dialogs/level01_start.dtl",
 "level01_stone": "res://dialogs/level01_stone.dtl"
 }
 glossary/default_case_sensitive=true
@@ -106,6 +111,12 @@ dialogic_default_action={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
 ]
 }
+
+[layer_names]
+
+2d_physics/layer_1="Colision"
+2d_physics/layer_2="Lvl_01_stone"
+2d_physics/layer_3="Lvl_01_npc"
 
 [rendering]
 
