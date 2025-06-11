@@ -1,2 +1,103 @@
-henry: Oi
+henry: [i]Okay, so this is it. The Moon Tree and the rocket. The core of the quest.[/i]\
+\
+Ok, então é aqui. A Árvore da Lua e o foguete. O centro da missão.
+pepperlex: [i]So, this rocket is a copy of the real one, from Apollo 14. It took the tree's seeds to space. Pretty cool, right?[/i]\
+\
+Então, esse foguete é uma cópia do original, da Apollo 14. Levou as sementes da árvore pro espaço. Bem legal, né?
+pepperlex: [i]And this is the famous Moon Tree! Its seeds orbited the moon. It’s basically a space tree![/i]\
+\
+E essa é a famosa Árvore da Lua! As sementes dela orbitaram a lua. É basicamente uma árvore espacial!
+henry: [i]Info, info… planted, Apollo… hang on. Something’s off.[/i]\
+\
+Informação, informação… plantada, Apollo… espera aí. Tem algo errado.
+pepperlex: [i]What's up? Did you find a clue?[/i]\
+\
+Qual é a boa? Achou uma pista?
+henry: [i]Look here. The dust on this plaque is all natural, except for one spot. This line has been wiped clean. It’s the most obscure part of the text.[/i]\
+\
+Olhe aqui. A poeira nesta placa é toda natural, exceto por um ponto. Esta linha foi apagada. É a parte mais obscura do texto.
+pepperlex: [i]So? What does it mean?[/i]\
+\
+E daí? O que isso significa?
+henry: [i]It means someone knew exactly which sentence mattered. They didn't waste time reading the rest. That’s Moriarty’s signature style. He was here.[/i]\
+\
+Significa que alguém sabia exatamente qual frase importava. Não perdeu tempo lendo o resto. Esse é o estilo do Moriarty. Ele esteve aqui.
+pepperlex: [i]So, if he already read it, what's left for us? Did he get the clue?[/i]\
+\
+Então, se ele já leu, o que sobrou pra gente? Ele pegou a pista?
+henry: [i]Moriarty is fast, a genius with languages, no doubt. He would have understood the literal words in a nanosecond.[/i]\
+\
+O Moriarty é rápido, um gênio com idiomas, sem dúvida. Ele teria entendido as palavras literais em um nanossegundo.
+henry: [i]But he's arrogant. He'd see the text, get a superficial meaning, and move on, thinking he's got it all figured out.[/i]\
+\
+Mas ele é arrogante. Ele veria o texto, pegaria um significado superficial e seguiria em frente, achando que já desvendou tudo.
+stone: Moriarty pode ter lido isso, mas será que ele entendeu? Selecione as palavras corretas em inglês para completar a tradução da mensagem secreta da placa. Cuidado com as pegadinhas!
+label first_question
+stone: [i]The ________ points up, to moon's soft gleam...[/i]\
+\
+A árvore aponta, ao brilho suave da lua...
+- tree
+	pepperlex: Correto! Mandou bem! Vamos para a próxima parte.
+- three
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump first_question
+- red
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump first_question
+label second_question
+stone: [i]A bright ________ guides, a waking dream.[/i]\
+\
+Uma estrela brilhante guia, um sonho que atua.
+- stop
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump second_question
+- sad
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump second_question
+- star
+	pepperlex: Correto! Mandou bem! Vamos para a próxima parte.
+label third_question
+stone: [i]The Queen's own ________, a royal theme...[/i]\
+\
+O arco próprio da Rainha, um tema que continua...
+- aunt
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump third_question
+- ask
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump third_question
+- arch
+	pepperlex: Correto! Mandou bem! Vamos para a próxima parte.
+label fourth_question
+stone: [i]Holds the next ________, it would seem.[/i]\
+\
+Guarda a próxima pista, assim se insinua.
+- key
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump fourth_question
+- clue
+	pepperlex: Correto! Mandou bem! Você decifrou o enigma!
+- blue
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump fourth_question
+stone: [i]The tree points up, to moon's soft gleam,\
+A bright star guides, a waking dream.\
+The Queen's own arch, a royal theme,\
+Holds the next clue, it would seem.[/i]
+stone: A árvore aponta, ao brilho suave da lua,\
+Uma estrela brilhante guia, um sonho que atua.\
+O arco próprio da Rainha, um tema que continua,\
+Guarda a próxima pista, assim se insinua.
+pepperlex: [i]That's it! 'The Queen's own arch'! It can only be one place in this city\: the Pórtico da Xuxa![/i]\
+\
+É isso! 'O arco da própria Rainha'! Só pode ser um lugar nesta cidade\: o Pórtico da Xuxa!
+henry: [i]And the 'bright star' must be our real guide there. Moriarty knows the words, but we know the story behind them.[/i]\
+\
+E a 'estrela brilhante' deve ser nossa verdadeira guia lá. O Moriarty conhece as palavras, mas nós conhecemos a história por trás delas.
+pepperlex: [i]He's probably looking for a literal queen in a castle. Let's bounce before he figures it out![/i]\
+\
+Ele provavelmente está procurando uma rainha de verdade num castelo. Vamos nessa antes que ele se toque!
+henry: [i]Game on. Let's go find our guiding star.[/i]\
+\
+Que comece o jogo. Vamos encontrar nossa estrela guia.
 [signal arg="enable_movement"]
