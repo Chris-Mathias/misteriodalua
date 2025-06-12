@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Mistério da Lua"
-run/main_scene="res://fase_01.tscn"
+run/main_scene="uid://1b8mop0pdqtm"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
@@ -112,11 +112,21 @@ dialogic_default_action={
 ]
 }
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://addons/maaacks_menus_template/base/translations/menus_translations.en.translation", "res://addons/maaacks_menus_template/base/translations/menus_translations.fr.translation")
+
 [layer_names]
 
 2d_physics/layer_1="Colision"
 2d_physics/layer_2="Lvl_01_stone"
 2d_physics/layer_3="Lvl_01_npc"
+
+[maaacks_menus_template]
+
+disable_update_check=false
+disable_install_wizard=true
+copy_path="res://addons/maaacks_menus_template/examples/scenes/menus/main_menu/main_menu.tscn"
 
 [rendering]
 
