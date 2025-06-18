@@ -22,6 +22,7 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"damiao": "res://dialogs/damiao.dch",
 "elza": "res://dialogs/elza.dch",
 "henry": "res://dialogs/henry.dch",
 "pepperlex": "res://dialogs/pepperlex.dch",
@@ -30,7 +31,9 @@ directories/dch_directory={
 directories/dtl_directory={
 "level01_npc": "res://dialogs/level01_npc.dtl",
 "level01_start": "res://dialogs/level01_start.dtl",
-"level01_stone": "res://dialogs/level01_stone.dtl"
+"level01_stone": "res://dialogs/level01_stone.dtl",
+"level02_npc": "res://dialogs/level02_npc.dtl",
+"level02_start": "res://dialogs/level02_start.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://dialogs/style.tres"]
@@ -115,8 +118,7 @@ dialogic_default_action={
 [layer_names]
 
 2d_physics/layer_1="Colision"
-2d_physics/layer_2="Lvl_01_stone"
-2d_physics/layer_3="Lvl_01_npc"
+2d_physics/layer_2="Dialogs"
 
 [rendering]
 

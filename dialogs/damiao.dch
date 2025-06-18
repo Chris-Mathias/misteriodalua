@@ -1,0 +1,29 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"sound_mood_default": "",
+"sound_moods": {},
+"style": ""
+},
+&"default_portrait": "New portrait",
+&"description": "Damião",
+&"display_name": "Damião",
+&"mirror": false,
+&"nicknames": ["Damião"],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"New portrait": {
+"export_overrides": {
+"image": "\"res://assets/level_02_npc.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}

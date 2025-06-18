@@ -1,0 +1,13 @@
+pepperlex: [i]Whoa, okay, this is… a lot. It looks like a fairytale castle entrance! So much pink![/i]\
+\
+Uau, ok, isso é… intenso. Parece a entrada de um castelo de conto de fadas! Quanto rosa!
+henry: [i]It’s iconic. Moriarty would see the obvious, the words. He wouldn't look for the spirit of the place.[/i]\
+\
+É icônico. O Moriarty veria o óbvio, as palavras. Ele não procuraria o espírito do lugar.
+pepperlex: [i]So, the clue isn't just in the words of the riddle?[/i]\
+\
+Então, a pista não está só nas palavras do enigma?
+henry: [i]Exactly. It's how the riddle connects to this place, to her.[/i]\
+\
+Exatamente. É como o enigma se conecta a este lugar, a ela.
+[signal arg="enable_movement"]

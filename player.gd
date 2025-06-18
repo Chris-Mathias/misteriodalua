@@ -5,7 +5,9 @@ extends CharacterBody2D
 @export var speed : float = 200.0
 @export var animation_tree : AnimationTree
 @export var allow_stone_dialog = false
-@export var allow_npc_dialog = false
+@export var allow_npc01_dialog = false
+@export var allow_npc02_dialog = false
+@export var play_xuxa_dialog = false
 
 var input : Vector2
 var playback : AnimationNodeStateMachinePlayback
@@ -55,6 +57,7 @@ func disable_movement():
 	set_physics_process(false)
 	set_process_input(false)
 	velocity = Vector2.ZERO
+	select_animation()
 
 
 func enable_movement():
@@ -64,12 +67,18 @@ func enable_movement():
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	print(body.name)
-	if body.name == "npc":
-		allow_npc_dialog = true
+	if body.name == "npc01":
+		allow_npc01_dialog = true
 	elif body.name == "lunar_tree":
 		allow_stone_dialog = true
+	elif body.name == "npc02":
+		allow_npc02_dialog = true
+	elif body.name == "area_xuxa":
+		play_xuxa_dialog = true
 
 
 func _on_area_2d_body_exited(body: Node2D) -> void:
-	allow_npc_dialog = false
+	allow_npc01_dialog = false
 	allow_stone_dialog = false
+	allow_npc02_dialog = false
+	play_xuxa_dialog = false
