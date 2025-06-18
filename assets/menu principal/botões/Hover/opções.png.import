@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cf6lc5kapox03"
-path="res://.godot/imported/opções.png-d0c04e5fe2bc3894ae8e7a4077d6f880.ctex"
+uid="uid://dghyqxso2aqf4"
+path="res://.godot/imported/opções.png-0d03aa63a2685c3077954d3cc700e8f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu principal/opções.png"
-dest_files=["res://.godot/imported/opções.png-d0c04e5fe2bc3894ae8e7a4077d6f880.ctex"]
+source_file="res://assets/menu principal/botões/Hover/opções.png"
+dest_files=["res://.godot/imported/opções.png-0d03aa63a2685c3077954d3cc700e8f1.ctex"]
 
 [params]
 

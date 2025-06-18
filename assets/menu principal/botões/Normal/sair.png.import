@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cfmbao21k7j1p"
-path="res://.godot/imported/creditos.png-e399648c452700080ec6afdcd8968b58.ctex"
+uid="uid://xiy8f6yln647"
+path="res://.godot/imported/sair.png-66911d7a67ae6aeab9e1b9219ba3be67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu principal/creditos.png"
-dest_files=["res://.godot/imported/creditos.png-e399648c452700080ec6afdcd8968b58.ctex"]
+source_file="res://assets/menu principal/botões/Normal/sair.png"
+dest_files=["res://.godot/imported/sair.png-66911d7a67ae6aeab9e1b9219ba3be67.ctex"]
 
 [params]
 

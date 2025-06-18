@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwwdaco058jlm"
-path="res://.godot/imported/sair.png-b704041536bb1d38673902995c1936c6.ctex"
+uid="uid://sx4730xin4k8"
+path="res://.godot/imported/iniciar.png-7530c7b9ddc20c73ca314bcfc5db8308.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu principal/sair.png"
-dest_files=["res://.godot/imported/sair.png-b704041536bb1d38673902995c1936c6.ctex"]
+source_file="res://assets/menu principal/botões/Normal/iniciar.png"
+dest_files=["res://.godot/imported/iniciar.png-7530c7b9ddc20c73ca314bcfc5db8308.ctex"]
 
 [params]
 
