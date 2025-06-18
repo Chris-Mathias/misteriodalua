@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfwt2isi8ms2l"]
+
+[ext_resource type="Script" uid="uid://kdcn4odsxir2" path="res://pause_menu.gd" id="1_nwcfo"]
+[ext_resource type="Texture2D" uid="uid://bv4u3hrtwi1qe" path="res://assets/menu principal/MISTERIO DA LUA menu.png" id="2_05uyy"]
+
+[node name="PauseMenu" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_nwcfo")
+
+[node name="DarkBG" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.470588)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -138.0
+offset_top = -42.0
+offset_right = 138.0
+offset_bottom = 42.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Continuar" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+text = "Continuar"
+
+[node name="Sair" type="Button" parent="VBoxContainer"]
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+mouse_default_cursor_shape = 2
+text = "Sair"
+
+[node name="MisterioDaLuaMenu" type="Sprite2D" parent="."]
+position = Vector2(575, 91)
+scale = Vector2(0.240789, 0.240789)
+texture = ExtResource("2_05uyy")
+
+[connection signal="pressed" from="VBoxContainer/Continuar" to="." method="_on_continuar_pressed"]
+[connection signal="pressed" from="VBoxContainer/Sair" to="." method="_on_sair_pressed"]

@@ -12,12 +12,24 @@ extends CharacterBody2D
 var input : Vector2
 var playback : AnimationNodeStateMachinePlayback
 
+const PAUSE_MENU = preload("res://pause_menu.tscn")
+
+
 
 func _ready():
 	playback = animation_tree["parameters/playback"]
 
 
 func _physics_process(delta: float) -> void:
+	
+	
+	
+	if Input.is_action_just_pressed("ui_cancel"):
+		if not has_node("PauseMenu"):
+			var menu_instance = PAUSE_MENU.instantiate()
+			menu_instance.name = "PauseMenu"
+			add_child(menu_instance)
+
 	input = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 
 	if Input.is_action_pressed("ui_up"):
