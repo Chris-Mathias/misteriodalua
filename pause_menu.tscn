@@ -1,7 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://bfwt2isi8ms2l"]
+[gd_scene load_steps=7 format=3 uid="uid://bfwt2isi8ms2l"]
 
 [ext_resource type="Script" uid="uid://kdcn4odsxir2" path="res://pause_menu.gd" id="1_nwcfo"]
 [ext_resource type="Texture2D" uid="uid://bv4u3hrtwi1qe" path="res://assets/menu principal/MISTERIO DA LUA menu.png" id="2_05uyy"]
+[ext_resource type="Texture2D" uid="uid://ecojavq1w4lk" path="res://assets/menu principal/botões/Menu pausa/continuar_normal.png" id="2_d3xb4"]
+[ext_resource type="Texture2D" uid="uid://cwutqosmgk5hk" path="res://assets/menu principal/botões/Menu pausa/continuar.png" id="3_mxa3g"]
+[ext_resource type="Texture2D" uid="uid://cx2jq2b3bqyx4" path="res://assets/menu principal/botões/Menu pausa/sair normal.png" id="4_e8sti"]
+[ext_resource type="Texture2D" uid="uid://di1arlhr7y4w5" path="res://assets/menu principal/botões/Menu pausa/sair hover.png" id="5_q2yj1"]
 
 [node name="PauseMenu" type="CanvasLayer"]
 process_mode = 3
@@ -28,17 +32,23 @@ offset_bottom = 42.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Continuar" type="Button" parent="VBoxContainer"]
-custom_minimum_size = Vector2(40, 40)
+[node name="Continuar" type="TextureButton" parent="VBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
 mouse_default_cursor_shape = 2
-text = "Continuar"
+texture_normal = ExtResource("2_d3xb4")
+texture_pressed = ExtResource("3_mxa3g")
+ignore_texture_size = true
+stretch_mode = 5
 
-[node name="Sair" type="Button" parent="VBoxContainer"]
-custom_minimum_size = Vector2(40, 40)
+[node name="Sair" type="TextureButton" parent="VBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
 layout_mode = 2
 mouse_default_cursor_shape = 2
-text = "Sair"
+texture_normal = ExtResource("4_e8sti")
+texture_pressed = ExtResource("5_q2yj1")
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="MisterioDaLuaMenu" type="Sprite2D" parent="."]
 position = Vector2(575, 91)

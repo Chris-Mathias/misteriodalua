@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv4u3hrtwi1qe"
-path="res://.godot/imported/MISTERIO DA LUA menu.png-25ef076bfe026a255aee41153a982aa1.ctex"
+uid="uid://di1arlhr7y4w5"
+path="res://.godot/imported/sair hover.png-495ab05f1be7b0522cf97a494d176086.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu principal/MISTERIO DA LUA menu.png"
-dest_files=["res://.godot/imported/MISTERIO DA LUA menu.png-25ef076bfe026a255aee41153a982aa1.ctex"]
+source_file="res://assets/menu principal/botões/Menu pausa/sair hover.png"
+dest_files=["res://.godot/imported/sair hover.png-495ab05f1be7b0522cf97a494d176086.ctex"]
 
 [params]
 

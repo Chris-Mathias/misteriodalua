@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv4u3hrtwi1qe"
-path="res://.godot/imported/MISTERIO DA LUA menu.png-25ef076bfe026a255aee41153a982aa1.ctex"
+uid="uid://cwutqosmgk5hk"
+path="res://.godot/imported/continuar.png-999ed00f2c2ea8897b77f2fc01f256f3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/menu principal/MISTERIO DA LUA menu.png"
-dest_files=["res://.godot/imported/MISTERIO DA LUA menu.png-25ef076bfe026a255aee41153a982aa1.ctex"]
+source_file="res://assets/menu principal/botões/Menu pausa/continuar.png"
+dest_files=["res://.godot/imported/continuar.png-999ed00f2c2ea8897b77f2fc01f256f3.ctex"]
 
 [params]
 
