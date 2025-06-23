@@ -9,12 +9,17 @@ extends CharacterBody2D
 @export var allow_npc02_dialog = false
 @export var play_xuxa_dialog = false
 
+@onready var audio_passos = $AudioPassos
+
 var input : Vector2
 var playback : AnimationNodeStateMachinePlayback
 
 const PAUSE_MENU = preload("res://pause_menu.tscn")
 
-
+func tocar_som_de_passo():
+	if not is_on_floor():
+		return
+	audio_passos.play
 
 func _ready():
 	playback = animation_tree["parameters/playback"]
