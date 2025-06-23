@@ -13,6 +13,11 @@ func _input(event: InputEvent):
 		$player.disable_movement()
 		get_viewport().set_input_as_handled()
 
+	if event.is_action_pressed("ui_accept") and $player.allow_arch_dialog == true:
+		Dialogic.start("level02_arch")
+		$player.disable_movement()
+		get_viewport().set_input_as_handled()
+
 
 func _ready() -> void:
 	Dialogic.signal_event.connect(_on_dialog_signal)
