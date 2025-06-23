@@ -3,6 +3,7 @@ extends CanvasLayer
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	get_tree().paused = true
 
 
@@ -16,7 +17,8 @@ func _on_continuar_pressed() -> void:
 	queue_free()
 
 
-
 func _on_sair_pressed() -> void:
 	get_tree().paused = false
+	Dialogic.end_timeline()
+
 	get_tree().change_scene_to_file("res://menu_principal.tscn")

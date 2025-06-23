@@ -1,0 +1,72 @@
+pepperlex: [i]Henry, another quiz. We have to fill in the blanks.[/i]\
+\
+Henry, outro quiz. Temos que preencher os espaços em branco.
+label first_question
+arch: [i]The Queen's bright ________, a crystal sign...[/i]\
+\
+A estrela da Rainha, um claro sinal...
+- tree
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump first_question
+- star
+	pepperlex: Correto! Mandou bem! Vamos para a próxima parte.
+- moon
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump first_question
+label second_question
+arch: [i]Becomes the ________ for the final design.[/i]\
+\
+Se torna a chave para o ato final.
+- door
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump second_question
+- key
+	pepperlex: Correto! Mandou bem! Vamos para a próxima parte.
+- clue
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump second_question
+label third_question
+arch: [i]With it, the power will ________ at last...[/i]\
+\
+Com ela, o poder desperta finalmente...
+- hide
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump third_question
+- hire
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump third_question
+- awake
+	pepperlex: Correto! Mandou bem! Vamos para a próxima parte.
+label fourth_question
+arch: [i]From echoes calling from the ________ so vast.[/i]\
+\
+Do eco que chama do céu ausente.
+- sky
+	pepperlex: Correto! Mandou bem! Você decifrou o enigma!
+- star
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump fourth_question
+- spot
+	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
+	jump fourth_question
+arch: [i]The Queen's bright star, a crystal sign,\
+Becomes the key for the final design.\
+With it, the power will awake at last,\
+From echoes calling from the sky so vast.[/i]
+arch: A estrela da Rainha, um claro sinal,\
+É a chave para o ato final.\
+Com ela, o poder desperta finalmente,\
+Do eco que chama do céu ausente.
+henry: [i]It’s an instruction. And the key is connected to the Queen’s Star, which is here.[/i]\
+\
+É uma instrução. E a chave está conectada à Estrela da Rainha, que é aqui.
+pepperlex: [i]So the instructions are at the Pórtico, but the lock must be back at the park![/i]\
+\
+Então as instruções estão no Pórtico, mas a fechadura deve estar de volta no parque!
+henry: [i]Exactly. The Apollo mission didn't just plant a tree. They planted a key.[/i]\
+\
+Exatamente. A missão Apollo não plantou apenas uma árvore. Eles plantaram uma chave.
+henry: [i]Moriarty would look for a meaning in the text. He wouldn't realize the riddle is a verb, an instruction to act.[/i]\
+\
+Moriarty procuraria um significado no texto. Ele não perceberia que o enigma é um verbo, uma instrução para agir.
+[signal arg="enable_movement"]
