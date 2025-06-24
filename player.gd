@@ -2,13 +2,14 @@ class_name Player
 extends CharacterBody2D
 
 
-@export var speed : float = 200.0
+@export var speed : float = 50.0
 @export var animation_tree : AnimationTree
 @export var allow_stone_dialog = false
 @export var allow_npc01_dialog = false
 @export var allow_arch_dialog = false
 @export var allow_npc02_dialog = false
 @export var play_xuxa_dialog = false
+@export var allow_rocket_dialog = false
 
 @onready var audio_passos : AudioStreamPlayer2D = $AudioPassos
 
@@ -100,6 +101,8 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		play_xuxa_dialog = true
 	elif body.name == "arch":
 		allow_arch_dialog = true
+	elif body.name == "rocket":
+		allow_rocket_dialog = true
 
 
 func _on_area_2d_body_exited(body: Node2D) -> void:
@@ -108,3 +111,4 @@ func _on_area_2d_body_exited(body: Node2D) -> void:
 	allow_npc02_dialog = false
 	allow_arch_dialog = false
 	play_xuxa_dialog = false
+	allow_rocket_dialog = false

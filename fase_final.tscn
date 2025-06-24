@@ -1,5 +1,6 @@
-[gd_scene load_steps=15 format=4 uid="uid://dtkdhtpchk655"]
+[gd_scene load_steps=16 format=4 uid="uid://dtkdhtpchk655"]
 
+[ext_resource type="Script" uid="uid://dd4o8yvx7awu5" path="res://fase_final.gd" id="1_q8auo"]
 [ext_resource type="Texture2D" uid="uid://cq0o27prsqd7v" path="res://assets/colisao.png" id="3_3wmwu"]
 [ext_resource type="Texture2D" uid="uid://ddfe3c4m5a2io" path="res://assets/level_01_map.png" id="3_ajqja"]
 [ext_resource type="Texture2D" uid="uid://cfr31ci82nexs" path="res://assets/level_01_trees_down.png" id="5_bhug5"]
@@ -35,6 +36,7 @@ outlines = Array[PackedVector2Array]([PackedVector2Array(-604, 31, -32, -254, 24
 
 [node name="FaseFinal" type="Node2D"]
 y_sort_enabled = true
+script = ExtResource("1_q8auo")
 
 [node name="collision" type="TileMapLayer" parent="."]
 z_index = -2
@@ -115,6 +117,5 @@ navigation_polygon = SubResource("NavigationPolygon_wegpt")
 [node name="night_filter" type="Sprite2D" parent="."]
 z_index = 10
 position = Vector2(-32, 33)
-scale = Vector2(1, 1)
 texture = ExtResource("12_go37i")
 metadata/_edit_lock_ = true

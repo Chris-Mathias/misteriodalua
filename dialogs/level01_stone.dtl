@@ -1,6 +1,6 @@
-henry: [i]Okay, so this is it. The Moon Tree and the rocket. The core of the quest.[/i]\
+henry: [i]Okay, so this is it. The Moon Tree and the rocket. The heart of the anomaly.[/i]\
 \
-Ok, então é aqui. A Árvore da Lua e o foguete. O centro da missão.
+Ok, então é aqui. A Árvore da Lua e o foguete. O coração da anomalia.
 pepperlex: [i]So, this rocket is a copy of the real one, from Apollo 14. It took the tree's seeds to space. Pretty cool, right?[/i]\
 \
 Então, esse foguete é uma cópia do original, da Apollo 14. Levou as sementes da árvore pro espaço. Bem legal, né?
@@ -28,9 +28,9 @@ Então, se ele já leu, o que sobrou pra gente? Ele pegou a pista?
 henry: [i]Moriarty is fast, a genius with languages, no doubt. He would have understood the literal words in a nanosecond.[/i]\
 \
 O Moriarty é rápido, um gênio com idiomas, sem dúvida. Ele teria entendido as palavras literais em um nanossegundo.
-henry: [i]But he's arrogant. He'd see the text, get a superficial meaning, and move on, thinking he's got it all figured out.[/i]\
+henry: [i]But his mistake is thinking this is a human puzzle. He'd see a simple poem, not realize it's a message pointing to something beyond Earth.[/i]\
 \
-Mas ele é arrogante. Ele veria o texto, pegaria um significado superficial e seguiria em frente, achando que já desvendou tudo.
+Mas o erro dele é pensar que este é um quebra-cabeça humano. Ele veria um simples poema, sem perceber que é uma mensagem apontando para algo além da Terra.
 stone: Moriarty pode ter lido isso, mas será que ele entendeu? Selecione as palavras corretas em inglês para completar a tradução da mensagem secreta da placa. Cuidado com as pegadinhas!
 label first_question
 stone: [i]The ________ points up, to moon's soft gleam...[/i]\
@@ -101,3 +101,4 @@ henry: [i]Game on. Let's go find our guiding star.[/i]\
 \
 Que comece o jogo. Vamos encontrar nossa estrela guia.
 [signal arg="enable_movement"]
+[signal arg="next_level"]

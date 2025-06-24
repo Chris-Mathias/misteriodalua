@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://cq0o27prsqd7v" path="res://assets/colisao.png" id="1_advy3"]
 [ext_resource type="Script" uid="uid://b3or8ek5qy2s1" path="res://fase_02.gd" id="1_dxhdy"]
-[ext_resource type="Texture2D" uid="uid://pg3tvkat07a6" path="res://assets/level_02_map.png" id="2_lruuj"]
+[ext_resource type="Texture2D" uid="uid://6ri1f2kcgei8" path="res://assets/level_02_map.png" id="2_lruuj"]
 [ext_resource type="PackedScene" uid="uid://dayyx7ppgadns" path="res://player.tscn" id="3_dxhdy"]
 [ext_resource type="PackedScene" uid="uid://cf8iw0idumxw4" path="res://pepperlex.tscn" id="4_lruuj"]
 [ext_resource type="Texture2D" uid="uid://blavunisj7kbn" path="res://assets/level_02_trees.png" id="4_vad0t"]
@@ -62,7 +62,7 @@ tile_set = SubResource("TileSet_6e5fo")
 
 [node name="map" type="Sprite2D" parent="."]
 z_index = -1
-position = Vector2(0, -13)
+position = Vector2(0, -23)
 texture = ExtResource("2_lruuj")
 
 [node name="trees" type="Sprite2D" parent="."]
@@ -167,6 +167,6 @@ metadata/_edit_lock_ = true
 
 [node name="night_filter" type="Sprite2D" parent="."]
 z_index = 10
-position = Vector2(-2.0504e-05, -13)
-scale = Vector2(0.457143, 0.457143)
+position = Vector2(5, -22.4999)
+scale = Vector2(0.628571, 0.804464)
 texture = ExtResource("12_imxwe")

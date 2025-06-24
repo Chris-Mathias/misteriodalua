@@ -1,11 +1,11 @@
-henry: [i]Good afternoon. This is an amazing monument. Do you know its story?[/i]\
+henry: [i]Hi again. This is an amazing monument. Do you know its story?[/i]\
 \
-Boa tarde. Este é um monumento incrível. O senhor conhece a história dele?
-damiao: Mas que barbaridade! Um guri de fora interessado na nossa Rainha dos baixinhos! Claro que conheço. Esse pórtico é a homenagem da cidade pra Xuxa.
+Olá novamente. Este é um monumento incrível. Você conhece a história dele?
+elza: Mas que barbaridade! Um guri de fora interessado na nossa Rainha dos baixinhos! Claro que conheço. Esse pórtico é a homenagem da cidade pra Xuxa.
 pepperlex: "Mas que barbaridade!" é uma expressão gaúcha clássica. Pode significar "wow!", "that's crazy!", ou "how awful!". Tudo depende do contexto. É uma frase super versátil!
-damiao: Vocês não tão aqui só pra turismo, né? Tão com uma cara de quem tá numa peleia... numa missão!
-henry: [i]He’s sharp. Yes, we are. We’re looking for a secret message.[/i]\
+elza: Vocês não tão aqui só pra turismo, né? Tão com uma cara de quem tá numa peleia... numa missão!
+henry: [i]She’s sharp. Yes, we are. We’re looking for a secret message.[/i]\
 \
-Ele é perspicaz. Sim, nós estamos. Estamos procurando uma mensagem secreta.
-damiao: Um segredo? Bah, guri. Tem um dito antigo gravado aqui que quase ninguém entende. Dizem que só quem tem o coração de criança consegue decifrar. Querem tentar a sorte? Dá uma olhadinha na torre do meio.
+Ela é perspicaz. Sim, nós estamos. Estamos procurando uma mensagem secreta.
+elza: Um segredo? Bah, guri. Tem um dito antigo gravado aqui que quase ninguém entende. Dizem que só quem tem o coração de criança consegue decifrar. Querem tentar a sorte? Dá uma olhadinha na torre do meio.
 [signal arg="enable_movement"]
