@@ -9,10 +9,10 @@
 "style": ""
 },
 &"default_portrait": "stone",
-&"description": "Stone",
-&"display_name": "Stone",
+&"description": "Pedra",
+&"display_name": "Pedra",
 &"mirror": true,
-&"nicknames": ["Stone"],
+&"nicknames": ["Pedra"],
 &"offset": Vector2(0, 0),
 &"portraits": {
 "stone": {
