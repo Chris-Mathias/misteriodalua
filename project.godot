@@ -21,8 +21,20 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
-directories/dch_directory={}
-directories/dtl_directory={}
+directories/dch_directory={
+"damiao": "res://dialogs/damiao.dch",
+"elza": "res://dialogs/elza.dch",
+"henry": "res://dialogs/henry.dch",
+"pepperlex": "res://dialogs/pepperlex.dch",
+"stone": "res://dialogs/stone.dch"
+}
+directories/dtl_directory={
+"level01_npc": "res://dialogs/level01_npc.dtl",
+"level01_start": "res://dialogs/level01_start.dtl",
+"level01_stone": "res://dialogs/level01_stone.dtl",
+"level02_npc": "res://dialogs/level02_npc.dtl",
+"level02_start": "res://dialogs/level02_start.dtl"
+}
 glossary/default_case_sensitive=true
 layout/style_list=["res://dialogs/style.tres"]
 layout/default_style="res://dialogs/style.tres"
