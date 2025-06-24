@@ -34,3 +34,5 @@ func _process(delta: float) -> void:
 func _on_dialog_signal(argument: String):
 	if argument == "enable_movement":
 		$player.enable_movement()
+	if argument == "next_level":
+		get_tree().change_scene_to_file("res://fase_final.tscn")

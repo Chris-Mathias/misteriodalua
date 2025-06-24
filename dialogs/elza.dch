@@ -9,15 +9,15 @@
 "style": ""
 },
 &"default_portrait": "New portrait",
-&"description": "Dona Elza",
-&"display_name": "Dona Elza",
+&"description": "Emília",
+&"display_name": "Emília",
 &"mirror": false,
-&"nicknames": ["Dona Elza"],
+&"nicknames": ["Emília"],
 &"offset": Vector2(0, 0),
 &"portraits": {
 "New portrait": {
 "export_overrides": {
-"image": "\"res://assets/level_01_npc.png\""
+"image": "\"res://assets/emilia.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

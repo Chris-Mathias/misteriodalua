@@ -1,7 +1,7 @@
 class_name NPC
 extends CharacterBody2D
 
-@export var speed: float = 300.0
+@export var speed: float = 60.0
 @export var animation_tree: AnimationTree
 @onready var navigation_agent: NavigationAgent2D = $NavigationAgent2D
 

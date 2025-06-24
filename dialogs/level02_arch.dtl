@@ -40,23 +40,26 @@ Com ela, o poder desperta finalmente...
 label fourth_question
 arch: [i]From echoes calling from the ________ so vast.[/i]\
 \
-Do eco que chama do céu ausente.
-- sky
+Do eco que chama do vácuo ausente.
+- void
 	pepperlex: Correto! Mandou bem! Você decifrou o enigma!
 - star
 	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
 	jump fourth_question
-- spot
+- sky
 	pepperlex: Quase! Não se preocupe, dê mais uma olhada na pergunta e tente novamente.
 	jump fourth_question
 arch: [i]The Queen's bright star, a crystal sign,\
 Becomes the key for the final design.\
 With it, the power will awake at last,\
-From echoes calling from the sky so vast.[/i]
+From echoes calling from the void so vast.[/i]
 arch: A estrela da Rainha, um claro sinal,\
 É a chave para o ato final.\
 Com ela, o poder desperta finalmente,\
-Do eco que chama do céu ausente.
+Do eco que chama do vácuo ausente.
+pepperlex: [i]The power will awake... from the void so vast? Henry, what kind of power are we talking about here?[/i]\
+\
+O poder vai despertar... do vácuo ausente? Henry, de que tipo de poder estamos falando aqui?
 henry: [i]It’s an instruction. And the key is connected to the Queen’s Star, which is here.[/i]\
 \
 É uma instrução. E a chave está conectada à Estrela da Rainha, que é aqui.
@@ -66,7 +69,8 @@ Então as instruções estão no Pórtico, mas a fechadura deve estar de volta n
 henry: [i]Exactly. The Apollo mission didn't just plant a tree. They planted a key.[/i]\
 \
 Exatamente. A missão Apollo não plantou apenas uma árvore. Eles plantaram uma chave.
-henry: [i]Moriarty would look for a meaning in the text. He wouldn't realize the riddle is a verb, an instruction to act.[/i]\
+henry: [i]Moriarty read the words, but he would never believe them. He'd think it was just a metaphor. He wouldn't dare to think it's real.[/i]\
 \
-Moriarty procuraria um significado no texto. Ele não perceberia que o enigma é um verbo, uma instrução para agir.
+Moriarty leu as palavras, mas ele nunca acreditaria nelas. Ele acharia que era só uma metáfora. Ele não ousaria pensar que é real.
 [signal arg="enable_movement"]
+[signal arg="next_level"]
