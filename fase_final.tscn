@@ -1,6 +1,5 @@
-[gd_scene load_steps=19 format=4 uid="uid://s2hlfmci4uq"]
+[gd_scene load_steps=15 format=4 uid="uid://dtkdhtpchk655"]
 
-[ext_resource type="Script" uid="uid://kc5yj710tk7k" path="res://fase_01.gd" id="1_ajqja"]
 [ext_resource type="Texture2D" uid="uid://cq0o27prsqd7v" path="res://assets/colisao.png" id="3_3wmwu"]
 [ext_resource type="Texture2D" uid="uid://ddfe3c4m5a2io" path="res://assets/level_01_map.png" id="3_ajqja"]
 [ext_resource type="Texture2D" uid="uid://cfr31ci82nexs" path="res://assets/level_01_trees_down.png" id="5_bhug5"]
@@ -9,10 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://mkdmmp3rtbob" path="res://assets/level_01_trees_right.png" id="7_5sqpf"]
 [ext_resource type="Texture2D" uid="uid://d2pl0xdsbgr0k" path="res://assets/level_01_trees_top.png" id="8_lephe"]
 [ext_resource type="Texture2D" uid="uid://dyb25klarny2n" path="res://assets/level_01_lunar_tree.png" id="9_yeb1h"]
-[ext_resource type="Texture2D" uid="uid://cr5j3ig7rpyrr" path="res://assets/player_shadow.png" id="10_cbyri"]
-[ext_resource type="Texture2D" uid="uid://g7csdny2yfs2" path="res://assets/level_01_npc.png" id="11_3etx6"]
 [ext_resource type="PackedScene" uid="uid://cf8iw0idumxw4" path="res://pepperlex.tscn" id="11_v6v6p"]
-[ext_resource type="Texture2D" uid="uid://05lxrlkpjc15" path="res://assets/shadows.png" id="11_wegpt"]
+[ext_resource type="Texture2D" uid="uid://bsn7j2a8gtlyx" path="res://assets/night_filter.png" id="12_go37i"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ajqja"]
 texture = ExtResource("3_3wmwu")
@@ -31,17 +28,13 @@ sources/2 = SubResource("TileSetAtlasSource_ajqja")
 [sub_resource type="CircleShape2D" id="CircleShape2D_d00eo"]
 radius = 59.0339
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_vginq"]
-radius = 41.0122
-
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_wegpt"]
 vertices = PackedVector2Array(-47.9375, 36.0781, -32.0078, 31.7734, -284.023, 160.898, -299.977, 165.227, -32, -242.82, 239.992, -106.82, 226.039, -110.148, -31.0078, -239.188, -16.0391, 36.1406, 239.992, 165.188, 223.023, 161.891, 464.898, -218.781, 469.797, -216.242, 254.047, -110.25, 737.781, -81.7422, 740.352, -80.3516, -30, 304.82, 512.859, 29.2188, 495.023, 37.1563, 222.977, 174.18, 424.727, -68.7969, 433.031, -64.3516, 397.789, -42.4297, 365.844, -40.8594, 494.977, 24.7813, 398.219, -30.8281, -283.977, 173.172, -15.9609, 23.7266, -32.0625, 28.1563, -48.0625, 23.7188, 253.953, -97.8984, 240.031, -101.141, 225.961, -97.7422, -581.539, 30.9766, -285.008, -111.156, -284.992, -98.8281, -304.094, -101.172, -552, 24.8672, -552, 37.1406, -30.0078, 301.188)
 polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3), PackedInt32Array(4, 5, 6, 7), PackedInt32Array(8, 9, 10, 1), PackedInt32Array(11, 12, 13, 5), PackedInt32Array(14, 15, 16, 17), PackedInt32Array(18, 17, 16, 19), PackedInt32Array(20, 21, 22, 23), PackedInt32Array(17, 18, 24), PackedInt32Array(25, 17, 24, 23), PackedInt32Array(3, 2, 26), PackedInt32Array(27, 8, 1, 28), PackedInt32Array(1, 0, 29, 28), PackedInt32Array(5, 13, 30, 31), PackedInt32Array(32, 6, 5, 31), PackedInt32Array(33, 4, 7, 34), PackedInt32Array(19, 10, 9), PackedInt32Array(23, 22, 25), PackedInt32Array(23, 24, 31), PackedInt32Array(30, 23, 31), PackedInt32Array(32, 31, 27, 28), PackedInt32Array(35, 28, 29, 36), PackedInt32Array(34, 35, 36), PackedInt32Array(33, 34, 36, 37), PackedInt32Array(33, 37, 38), PackedInt32Array(16, 33, 38, 3), PackedInt32Array(16, 3, 26, 39), PackedInt32Array(16, 39, 19), PackedInt32Array(18, 19, 9)])
 outlines = Array[PackedVector2Array]([PackedVector2Array(-604, 31, -32, -254, 240, -118, 465, -230, 492, -216, 264, -104, 366, -52, 425, -80, 453, -65, 408, -37, 513, 18, 738, -93, 762, -80, -30, 316), PackedVector2Array(-542, 31, -300, 154, -58, 30, -304, -90), PackedVector2Array(-274, 167, -30, 290, 213, 168, -32, 43), PackedVector2Array(-275, -105, -32, 17, 216, -104, -31, -228), PackedVector2Array(-6, 30, 240, 154, 485, 31, 240, -90)])
 
-[node name="Fase01" type="Node2D"]
+[node name="FaseFinal" type="Node2D"]
 y_sort_enabled = true
-script = ExtResource("1_ajqja")
 
 [node name="collision" type="TileMapLayer" parent="."]
 z_index = -2
@@ -55,23 +48,18 @@ position = Vector2(-32, 33)
 texture = ExtResource("3_ajqja")
 metadata/_edit_lock_ = true
 
-[node name="shadows" type="Sprite2D" parent="."]
-z_index = 10
-position = Vector2(-35, 36)
-texture = ExtResource("11_wegpt")
-
-[node name="lunar_tree" type="StaticBody2D" parent="."]
+[node name="rocket" type="StaticBody2D" parent="."]
 collision_layer = 2
 collision_mask = 2
 metadata/_edit_lock_ = true
 
-[node name="lunar_tree" type="Sprite2D" parent="lunar_tree"]
+[node name="rocket" type="Sprite2D" parent="rocket"]
 z_as_relative = false
 position = Vector2(-35, 36)
 texture = ExtResource("9_yeb1h")
 metadata/_edit_lock_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="lunar_tree"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="rocket"]
 position = Vector2(473, -124)
 shape = SubResource("CircleShape2D_d00eo")
 metadata/_edit_lock_ = true
@@ -112,34 +100,21 @@ position = Vector2(-54.5, -126)
 texture = ExtResource("8_lephe")
 metadata/_edit_lock_ = true
 
-[node name="npc01" type="StaticBody2D" parent="."]
-z_index = 2
-position = Vector2(-373, -35)
-collision_layer = 2
-collision_mask = 2
-
-[node name="shadow" type="Sprite2D" parent="npc01"]
-position = Vector2(-1, 8)
-scale = Vector2(0.018, 0.018)
-texture = ExtResource("10_cbyri")
-metadata/_edit_lock_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="npc01"]
-texture = ExtResource("11_3etx6")
-metadata/_edit_lock_ = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="npc01"]
-shape = SubResource("CircleShape2D_vginq")
-metadata/_edit_lock_ = true
-
 [node name="player" parent="." instance=ExtResource("5_cs2tf")]
-position = Vector2(-570, 23)
+position = Vector2(-11, 289)
 scale = Vector2(1, 1)
 
 [node name="pepperlex" parent="." instance=ExtResource("11_v6v6p")]
-position = Vector2(-555, 41)
+position = Vector2(-30, 297)
 scale = Vector2(1, 1)
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
 visible = false
 navigation_polygon = SubResource("NavigationPolygon_wegpt")
+
+[node name="night_filter" type="Sprite2D" parent="."]
+z_index = 10
+position = Vector2(-32, 33)
+scale = Vector2(1, 1)
+texture = ExtResource("12_go37i")
+metadata/_edit_lock_ = true

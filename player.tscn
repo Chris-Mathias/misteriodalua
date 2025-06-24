@@ -554,7 +554,7 @@ radius = 4.8
 height = 9.6
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_i3pqv"]
-radius = 16.005
+radius = 9.80204
 
 [node name="player" type="CharacterBody2D" node_paths=PackedStringArray("animation_tree") groups=["players"]]
 z_index = 1
@@ -604,12 +604,11 @@ metadata/_edit_lock_ = true
 zoom = Vector2(2.5, 2.5)
 
 [node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-0.6, 1.6)
 collision_layer = 2
 collision_mask = 2
-metadata/_edit_lock_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-visible = false
 shape = SubResource("CircleShape2D_i3pqv")
 metadata/_edit_lock_ = true
 
