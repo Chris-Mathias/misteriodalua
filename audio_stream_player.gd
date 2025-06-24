@@ -7,8 +7,12 @@ var music_tracks = {
 		},
 	"fase1": { 
 		"track": preload("res://assets/trilha_sonora/fase1.mp3"),
-		"volume": -10.0
-		}
+		"volume": -15.0
+		},
+	"fase_final": {
+		"track": preload("res://assets/trilha_sonora/fase final.mp3"),
+		"volume": -15.0
+	}
 }
 
 var musica_atual = null
@@ -30,7 +34,6 @@ func tocar_musica(nome_da_faixa):
 	
 	play()
 	
-	print("musica iniciada")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

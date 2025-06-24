@@ -19,6 +19,7 @@ func _input(event: InputEvent):
 		get_viewport().set_input_as_handled()
 
 
+
 func _ready() -> void:
 	Dialogic.signal_event.connect(_on_dialog_signal)
 
