@@ -10,11 +10,18 @@ extends CharacterBody2D
 @export var allow_npc02_dialog = false
 @export var play_xuxa_dialog = false
 
+@onready var audio_passos : AudioStreamPlayer2D = $AudioPassos
+
 var can_move = true
 var input : Vector2
 var playback : AnimationNodeStateMachinePlayback
 
 const PAUSE_MENU = preload("res://pause_menu.tscn")
+
+
+func tocar_som_de_passo():
+	$AudioPassos.pitch_scale = randf_range(0.7, 1.3)
+	audio_passos.play()
 
 
 func _ready():
@@ -27,13 +34,10 @@ func _unhandled_input(event: InputEvent) -> void:
 			var menu_instance = PAUSE_MENU.instantiate()
 			menu_instance.name = "PauseMenu"
 			add_child(menu_instance)
-			# Consome o evento para que nada mais o use
 			get_viewport().set_input_as_handled()
 
 
 func _physics_process(delta: float) -> void:
-	
-
 	if not can_move:
 		velocity = Vector2.ZERO
 		move_and_slide()
@@ -86,7 +90,6 @@ func enable_movement():
 
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
-	print(body.name)
 	if body.name == "npc01":
 		allow_npc01_dialog = true
 	elif body.name == "lunar_tree":
