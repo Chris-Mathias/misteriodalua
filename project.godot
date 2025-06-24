@@ -26,7 +26,9 @@ directories/dch_directory={
 "damiao": "res://dialogs/damiao.dch",
 "elza": "res://dialogs/elza.dch",
 "henry": "res://dialogs/henry.dch",
+"moriarty": "res://dialogs/moriarty.dch",
 "pepperlex": "res://dialogs/pepperlex.dch",
+"rocket": "res://dialogs/rocket.dch",
 "stone": "res://dialogs/stone.dch"
 }
 directories/dtl_directory={
@@ -35,7 +37,8 @@ directories/dtl_directory={
 "level01_stone": "res://dialogs/level01_stone.dtl",
 "level02_arch": "res://dialogs/level02_arch.dtl",
 "level02_npc": "res://dialogs/level02_npc.dtl",
-"level02_start": "res://dialogs/level02_start.dtl"
+"level02_start": "res://dialogs/level02_start.dtl",
+"levelfinal_rocket": "res://dialogs/levelfinal_rocket.dtl"
 }
 glossary/default_case_sensitive=true
 layout/style_list=["res://dialogs/style.tres"]

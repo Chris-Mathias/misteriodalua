@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=4 uid="uid://be7qwvdk4ya5o"]
+[gd_scene load_steps=20 format=4 uid="uid://be7qwvdk4ya5o"]
 
 [ext_resource type="Texture2D" uid="uid://cq0o27prsqd7v" path="res://assets/colisao.png" id="1_advy3"]
 [ext_resource type="Script" uid="uid://b3or8ek5qy2s1" path="res://fase_02.gd" id="1_dxhdy"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://ca8w62eac68ij" path="res://assets/level_02_arch_middle.png" id="6_imxwe"]
 [ext_resource type="Texture2D" uid="uid://du5cp87net8vi" path="res://assets/level_02_arch_right.png" id="7_pbgh5"]
 [ext_resource type="Texture2D" uid="uid://r3o4tmdlqcxq" path="res://assets/level_02_npc.png" id="7_vad0t"]
+[ext_resource type="Texture2D" uid="uid://bsn7j2a8gtlyx" path="res://assets/night_filter.png" id="12_imxwe"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4qlj5"]
 texture = ExtResource("1_advy3")
@@ -121,6 +122,7 @@ position = Vector2(20, 101)
 scale = Vector2(1, 1)
 
 [node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+visible = false
 navigation_polygon = SubResource("NavigationPolygon_dxhdy")
 metadata/_edit_lock_ = true
 
@@ -162,3 +164,9 @@ position = Vector2(128, -24)
 rotation = -0.453786
 shape = SubResource("RectangleShape2D_vad0t")
 metadata/_edit_lock_ = true
+
+[node name="night_filter" type="Sprite2D" parent="."]
+z_index = 10
+position = Vector2(-2.0504e-05, -13)
+scale = Vector2(0.457143, 0.457143)
+texture = ExtResource("12_imxwe")
