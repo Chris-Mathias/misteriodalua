@@ -12,6 +12,7 @@ func _input(event: InputEvent):
 
 
 func _ready() -> void:
+	MusicManager.tocar_musica("fase_final")
 	Dialogic.signal_event.connect(_on_dialog_signal)
 
 
