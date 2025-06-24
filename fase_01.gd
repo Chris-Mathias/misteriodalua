@@ -16,6 +16,7 @@ func _input(event: InputEvent):
 		get_viewport().set_input_as_handled()
 
 func _ready() -> void:
+	MusicManager.tocar_musica("fase1")
 	Dialogic.signal_event.connect(_on_dialog_signal)
 	Dialogic.start("level01_start")
 	$player.disable_movement()
