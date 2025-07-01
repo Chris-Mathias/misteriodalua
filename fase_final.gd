@@ -22,4 +22,4 @@ func _process(delta: float) -> void:
 
 func _on_dialog_signal(argument: String):
 	if argument == "end":
-		get_tree().change_scene_to_file("res://menu_principal.tscn")
+		Transition.start_transition("res://menu_principal.tscn")

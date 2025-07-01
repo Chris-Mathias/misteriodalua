@@ -16,7 +16,6 @@ func _input(event: InputEvent):
 		get_viewport().set_input_as_handled()
 
 func _ready() -> void:
-	MusicManager.tocar_musica("fase1")
 	Dialogic.signal_event.connect(_on_dialog_signal)
 	Dialogic.start("level01_start")
 	$player.disable_movement()
@@ -30,4 +29,4 @@ func _on_dialog_signal(argument: String):
 	if argument == "enable_movement":
 		$player.enable_movement()
 	if argument == "next_level":
-		get_tree().change_scene_to_file("res://fase_02.tscn")
+		Transition.start_transition("res://fase_02.tscn")

@@ -11,7 +11,7 @@ func _process(delta: float) -> void:
 
 
 func _on_texture_button_pressed() -> void:
-	get_tree().change_scene_to_file("res://fase_01.tscn")
+	Transition.start_transition("res://fase_01.tscn", true, "fase1")
 
 
 func _on_sair_pressed() -> void:
